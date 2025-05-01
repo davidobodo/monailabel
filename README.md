@@ -129,3 +129,11 @@ If you continue to experience issues:
 2. Verify MONAI Label installation: `pip show monailabel`
 3. Try reinstalling MONAI Label: `pip uninstall monailabel && pip install monailabel`
 4. Check the MONAI Label documentation for any updates or alternative installation methods
+
+## Download Dataset
+
+Kindly use this command to download the dataset
+
+```
+python3 -m monailabel.main datasets --download --name Task09_Spleen --output datasets
+```
