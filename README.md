@@ -137,3 +137,9 @@ Kindly use this command to download the dataset
 ```
 python3 -m monailabel.main datasets --download --name Task09_Spleen --output datasets
 ```
+
+## Launching Server
+
+```
+python3 -m monailabel.main start_server --app apps/radiology --studies datasets/Task09_Spleen/imagesTr --conf models deepedit
+```
